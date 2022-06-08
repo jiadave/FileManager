@@ -4,26 +4,17 @@
     File Writing
 </title>
 
+<head>
+    <script type = "text/javascript" src="js/backend.js"></script>
+</head>
+
 <body>
-Convert Your Text to a File! <br>
-<form>
-    Text:
-    <input type="text" name="Course" size="15" id="input">
-</form>
-<script type="text/javascript"></script>
-<p id="valueInput"></p>
-
-<button onclick="myFunction()">Click Me!</button>
-<script>
-function myFunction() {
-    var input_value = document.getElementById("input").value
-    alert("You wrote " + input_value);
-}
-</script>
-
-
+    Convert Your Text to a File! <br>
+    <form>
+        Text:
+        <input type="text" name="Course" size="15" id="input">
+    </form>
+    <p id="valueInput"></p>
+    <input type="button" onclick="popupText()" value="Click Me!">
 </body>
-
-
-
 </html>
