@@ -13,6 +13,7 @@ public class TestController {
 
     @GetMapping(value = "/writeToFile")
     public void writeToFile() {
+        System.out.println("write to file called");
         FileManager fileManager = new FileManager();
         fileManager.writeToFile("jia.txt");
     }
